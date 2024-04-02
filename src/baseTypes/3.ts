@@ -1,6 +1,6 @@
 let some:unknown;
 some = 'Text';
 let str: string;
-str = typeof some;
+str = some as string;
 
 export {};
